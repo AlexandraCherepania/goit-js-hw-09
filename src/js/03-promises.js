@@ -41,6 +41,7 @@ function onFormSubmit(e){
       `❌ Rejected promise ${position} in ${delay}ms`
     )
   })
+    
     .finally(() => form.reset())
   }
 }
